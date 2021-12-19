@@ -24,6 +24,9 @@ Another wiki-based website, www.exploitee.rs, focuses more on hacking things. We
 <p align = "center"><img src = "./pictures/TapoC100_camera.png"></p>
 <p align = "left"> Fig.9 (a) the front side of the TP-link Tapo C100 IP camera; (b) with the front panel removed; (c) the back side of the main board; and (d) the pin definition of the MX25QH64 SPI Flash chip. </p>
 
+### Demo video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/m7ZcDeiTHVQ/0.jpg)](https://www.youtube.com/watch?v=m7ZcDeiTHVQ)
+
 ### References
 <a id="1">[1]</a> 
 Sobey, Ed. 
