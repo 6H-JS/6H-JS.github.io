@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Appendix for Leaving Your *Things* Unattended is No Joke! Memory Bus Snooping and Open Debug Interface Exploit Case Studies
 
-You can use the [editor on GitHub](https://github.com/6H-JS/6H-JS.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Resources
+A key resource is a book by reverse engineering expert Edwin Sobey~\cite{sobey2011unscrewed}. Sobey talks about salvaging useful components from broken or old electronics in this book. More importantly, readers can learn how to use correct tools to dissection the device, identify valuable parts that can be reused, basic knowledge about how they work and safety rules to follow when unscrewing devices. Notably, this book was published pre-IoT era in 2011. Some techniques are outdated with the rapid evolution of industrial design. For example, nowadays, more and more devices have their casing held together with adhesive or ultrasound welding rather than screws and clips commonly used back in 2011.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For readers not with an electronics background, it is recommended to read an introductory book to build and test some simple circuits on a breadboard before hands on your IoT device. The book \textit{Electronics for Beginners} written by Jonathan Bartlett~\cite{bartlett2020electronics} would be a good starting point. This book covers basic electronics concepts, read schematics, circuit analysis and calculations.
 
-### Markdown
+Given some familiarity with electronics, \textit{The IoT Hacker's Handbook} written by Aditya Gupta~\cite{gupta2019iot} provides in-depth insights into hardware and embedded system exploitation to firmware exploitation. %Such kind of knowledge would be a good addition to our exploration.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Then, www.ifixit.com is a wiki-based website for user-generated content sharing focusing on repairing technological devices. The website provides video content from experienced people with step-by-step recipes to tear down the device you want to explore. This may largely reduce the risk of having your device damaged or hurting yourself.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/6H-JS/6H-JS.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Another wiki-based website, exploitee.rs, focuses more on hacking things. We can learn how to find hidden debug interfaces and how to decrypt dumped firmware from the examples on this website.
