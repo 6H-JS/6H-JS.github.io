@@ -3,7 +3,7 @@
 ### Resources
 A key resource is a book by reverse engineering expert Edwin Sobey [[1]](#1). Sobey talks about salvaging useful components from broken or old electronics in this book. More importantly, readers can learn how to use correct tools to dissection the device, identify valuable parts that can be reused, basic knowledge about how they work and safety rules to follow when unscrewing devices. Notably, this book was published pre-IoT era in 2011. Some techniques are outdated with the rapid evolution of industrial design. For example, nowadays, more and more devices have their casing held together with adhesive or ultrasound welding rather than screws and clips commonly used back in 2011.
 
-Given some familiarity with electronics, *The IoT Hacker's Handbook* written by Aditya Gupta [[2]](#1) provides in-depth insights into hardware and embedded system exploitation to firmware exploitation. %Such kind of knowledge would be a good addition to our exploration.
+Given some familiarity with electronics, *The IoT Hacker's Handbook* written by Aditya Gupta [[2]](#1) provides in-depth insights into hardware and embedded system exploitation to firmware exploitation.
 
 Then, www.ifixit.com is a wiki-based website for user-generated content sharing focusing on repairing technological devices. The website provides video content from experienced people with step-by-step recipes to tear down the device you want to explore. This may largely reduce the risk of having your device damaged or hurting yourself.
 
@@ -36,3 +36,10 @@ Gupta, Aditya.
 The IoT Hacker's Handbook: A Practical Guide to Hacking the Internet of Things,
 2019,
 Apress.
+
+<a id="3">[3]</a> 
+Vishwakarma, Gopal and Lee, Wonjun.
+Exploiting JTAG and its mitigation in IOT: a survey,
+Future Internet,
+volume 10, number 12, pages 121, 2018,
+Multidisciplinary Digital Publishing Institute.
