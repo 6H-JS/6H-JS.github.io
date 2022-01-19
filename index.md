@@ -16,12 +16,12 @@ Then, www.ifixit.com is a wiki-based website for user-generated content sharing 
 To disassemble the electronic lock, a T-10 screwdriver is required to remove the four bolts holding the back panel in place. Subsequently, all internal parts can be removed by hand within 1 minute, without a tool, as illustrated in Fig.8. Our technique to get access to the JTAG pins is to solder a 1.27 mm 7-pin header. This requires 5 minutes. Accessing the internal NVM using MSP-FET430UIF debugger can take another 3 minutes.  We can de-solder the jumper wire header in 3 minutes with a hot air gun and take another 3 minutes to put all parts together. The entire process takes 15 minutes and could be further shortened by using a data repair tool (available on www.ebay.com for US\$21) instead of soldering a pin header.
 
 <p align = "center"><img src = "./pictures/Lock_teardown.png"></p>
-<p align = "left"> Fig.I Tear-down of the electronic lock: (a) front side; (b) back side; (c) with back panel removed; (d) the electronic assembly; (e) the circuit board is visible after removing waterproof silicone rubber keyboard. </p>
+<p align = "left"> Fig. I Tear-down of the electronic lock: (a) front side; (b) back side; (c) with back panel removed; (d) the electronic assembly; (e) the circuit board is visible after removing waterproof silicone rubber keyboard. </p>
 
 The disassembly of the WiFi IP camera simpler. We can remove the front panel of the camera by inserting a lever into its edge and gently applying a force as shown in Fig.9. Then the mainboard is removed by freeing the snap-fit in less than one minute. It takes tens of seconds to attach the Flash programmer test clip to the exposed Flash chip and short circuit the RESET pin of the SoC. Reading the Flash memory via SPI is the most time-consuming part, taking 3 to 4 minutes. Once the memory image is dumped, the target IP camera is re-assembled in another minute. We conclude the entire process is possible in 8 minutes. The firmware analysis and cracking of the dumped firmware can be done offline, as shown in our demo video https://youtu.be/m7ZcDeiTHVQ.
 
 <p align = "center"><img src = "./pictures/TapoC100_camera.png"></p>
-<p align = "left"> Fig.II (a) the front side of the TP-link Tapo C100 IP camera; (b) with the front panel removed; (c) the back side of the main board; and (d) the pin definition of the MX25QH64 SPI Flash chip. </p>
+<p align = "left"> Fig. II (a) the front side of the TP-link Tapo C100 IP camera; (b) with the front panel removed; (c) the back side of the main board; and (d) the pin definition of the MX25QH64 SPI Flash chip. </p>
 
 ### Demo video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/m7ZcDeiTHVQ/0.jpg)](https://www.youtube.com/watch?v=m7ZcDeiTHVQ)
